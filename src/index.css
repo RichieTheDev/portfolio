@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply py-2 px-4 rounded-lg bg-blue-900 text-blue-50 hover:bg-blue-600;
+  }
+  .heading {
+    @apply font-bold text-xl sm:text-2xl underline;
+  }
+  .skills {
+    @apply text-base sm:text-lg;
+  }
+  .imgbody {
+    @apply h-full w-full brightness-75 object-cover space-y-5 rounded-lg;
+  }
+  .img {
+    @apply absolute h-full w-full text-center top-1/2 bottom-1/2;
+  }
+  .links {
+    @apply flex items-center justify-center space-x-2;
+  }
+}
+html {
+  background-image: url(assets/Hero5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: whitesmoke;
+  filter: brightness(95%);
+  background-blend-mode: darken;
+  font-family: "Unbounded", cursive;
+}
