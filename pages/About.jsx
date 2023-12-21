@@ -7,18 +7,26 @@ const About = () => {
         About Me
       </h1>
       <p className="text-lg p-2 sm:p-4 mt-2 sm:mt-5">
-        Front End Developer and Javascript Engineer with over 5+ years of
-        experience, Delivering engaging and visually compelling applications
-        with user-friendly interactions that drive business growth and improve
-        UX. With over 5 years of experience, I have discovered a passion for
-        building projects by implementing Javascript Libraries and frameworks
-        which help me with problem solving thereby Providing solutions to
-        obstacles faced by the community. These solutions also includes
-        incorporating a well Formulated Web Experience which help me develop
-        both personally and professionally to become an innovator for the future
-        of technology with the help of my skills gained and critical thinking to
-        be confident in my ideas, I also enjoy working in a team and
-        collaborating with other freelancers/developer.
+        I'm a highly skilled Front End Developer with 4+ years of turning ideas
+        to reality. With my extensive experience in React JS, JavaScript,
+        TypeScript, and Next.js, I have successfully contributed to various
+        remote projects, showcasing my ability to collaborate effectively and
+        follow Agile methodologies. My expertise includes implementing
+        TypeScript's module system, decorators, and generics to enhance code
+        maintainability and scalability. I have a strong background in
+        optimizing query response time and system efficiency with PostgreSQL, as
+        well as integrating Tailwind CSS for efficient styling and responsive UI
+        design. My proficiency in tools such as Cypress, Jest, Zustand, and Git,
+        combined with my knowledge of API consumption and CI/CD, has allowed me
+        to deliver high-quality code with improved testing coverage and reduced
+        deployment errors. My contributions to previous companies include
+        successful integration of Firebase authentication and real-time
+        database, efficient data management using Sanity.io and Supabase, and
+        accelerated development cycles with Zustand and React Router. With a
+        passion for delivering exceptional user experiences, I have demonstrated
+        my ability to improve page load times, search engine discoverability,
+        and front-end performance through Next.js Server-Side Rendering and
+        RESTful API consumption.
       </p>
     </div>
   );

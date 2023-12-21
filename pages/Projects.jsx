@@ -10,6 +10,8 @@ import Project8 from "../assets/Project8.png";
 import Project9 from "../assets/Project9.png";
 import Project10 from "../assets/Project10.png";
 import Project11 from "../assets/Project11.png";
+import Project12 from "../assets/Project12.png";
+import Project13 from "../assets/Project13.png";
 import { SlSocialGithub } from "react-icons/sl";
 
 const Projects = () => {
@@ -23,6 +25,27 @@ const Projects = () => {
        sm:mx-28 sm:grid sm:grid-cols-2 flex flex-col"
       >
         <div className="relative ">
+          <img src={Project13} alt="/" className="imgbody" />
+          <div className="img">
+            <div className="links">
+              <a
+                href="https://richieibuy.vercel.app/"
+                target="_blank"
+                className="btn"
+              >
+                Live
+              </a>
+              <a
+                href="https://github.com/RichieTheDev/ibuyShop"
+                target="_blank"
+                className="hover:text-amber-600"
+              >
+                <SlSocialGithub size={30} />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="relative ">
           <img src={Project10} alt="/" className="imgbody" />
           <div className="img">
             <div className="links">
@@ -35,6 +58,27 @@ const Projects = () => {
               </a>
               <a
                 href="https://github.com/RichieTheDev/home-rentals"
+                target="_blank"
+                className="hover:text-amber-600"
+              >
+                <SlSocialGithub size={30} />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="relative ">
+          <img src={Project12} alt="/" className="imgbody" />
+          <div className="img">
+            <div className="links">
+              <a
+                href="https://richiemomodutest.vercel.app/"
+                target="_blank"
+                className="btn"
+              >
+                Live
+              </a>
+              <a
+                href="https://github.com/RichieTheDev/simple-movie"
                 target="_blank"
                 className="hover:text-amber-600"
               >
@@ -90,14 +134,14 @@ const Projects = () => {
           <div className="img">
             <div className="links">
               <a
-                href="https://crappochapo.vercel.app/"
+                href="https://crapposite.vercel.app/"
                 target="_blank"
                 className="btn"
               >
                 Live
               </a>
               <a
-                href="https://github.com/RichieTheDev/cryptositereactjs"
+                href="https://github.com/RichieTheDev/finance-Site"
                 target="_blank"
                 className="hover:text-amber-600"
               >

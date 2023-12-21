@@ -11,7 +11,7 @@ const Home = () => {
         <Typed strings={["Richie"]} typeSpeed={100} backSpeed={50} loop />
       </h2>
       <p>Turning Ideas into </p>
-      <p>Real Life Products</p>
+      <p>Reality</p>
       <p className="mb-4">Is my Passion</p>
       <button onClick={() => navigate("/Contacts")} className="btn text-lg">
         Contact Me

@@ -1,13 +1,14 @@
 import React from "react";
-import { TiSocialTwitter, TiSocialInstagram } from "react-icons/ti";
+import { TiSocialTwitter } from "react-icons/ti";
 import { SlSocialGithub } from "react-icons/sl";
+import { AiFillLinkedin } from "react-icons/ai";
 
 const Contacts = () => {
   return (
     <div className="text-center">
       <h1 className="text-3xl sm:text-4xl text-gray-600">Reach Out!</h1>
       <p className="mt-2 sm:mt-4 text-lg sm:text-xl">
-        Are you Interested in A Web Developer That Loves Fun Builds And
+        Are you Interested in A Front End Developer That Loves Fun Builds And
         Projects?
       </p>
       <p className="mt-2 sm:mt-4 text-lg sm:text-xl">
@@ -32,12 +33,12 @@ const Contacts = () => {
           </a>
         </div>
         <div className="flex flex-row">
-          <TiSocialInstagram size={25} />
+          <AiFillLinkedin size={25} />
           <a
-            href="https://www.instagram.com/richiemomodu/"
+            href="https://www.linkedin.com/in/richie-momodu/"
             className="hover:text-amber-600"
           >
-            richiemomodu
+            Richie Momodu
           </a>
         </div>
 
