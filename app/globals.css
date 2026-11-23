@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --font-display: "Unbounded";
+    --font-sans: "IBM Plex Sans";
+    --font-mono: "IBM Plex Mono";
+  }
   html {
     scroll-behavior: smooth;
     scroll-padding-top: 4.5rem;
