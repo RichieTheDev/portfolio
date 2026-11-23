@@ -53,10 +53,6 @@ export default function Home() {
               <h2 id="work-title" className="heading">
                 Selected work
               </h2>
-              <p className="max-w-md text-paper-muted sm:text-right">
-                Ten projects from the last two years as the only DevOps engineer on regulated fintech platforms. Client
-                names are left out.
-              </p>
             </div>
             <div className="mt-10 sm:mt-14">
               <ProjectList projects={projects} />
