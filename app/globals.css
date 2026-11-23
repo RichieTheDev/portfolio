@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem;
+    color-scheme: dark;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-night font-sans text-paper antialiased;
+    font-feature-settings: "ss01", "ss02";
+  }
+  h1, h2, h3 {
+    @apply text-paper;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-amber ring-offset-2 ring-offset-night;
+  }
+  ::selection {
+    @apply bg-amber text-night;
+  }
+}
+
+@layer components {
+  .page {
+    @apply mx-auto w-full max-w-page px-4 sm:px-8;
+  }
+  .press {
+    @apply transition-transform duration-150 ease-fluid active:scale-[0.97];
+  }
+  .btn-solid {
+    @apply press inline-flex min-h-[48px] items-center justify-center gap-2 rounded-full bg-amber px-6 text-[15px] font-semibold text-night hover:bg-[#f5b552];
+  }
+  .btn-line {
+    @apply press inline-flex min-h-[48px] items-center justify-center gap-2 rounded-full border border-night-line px-6 text-[15px] font-medium text-paper hover:border-paper-muted;
+  }
+  .heading {
+    @apply font-display text-[1.75rem] font-semibold leading-tight tracking-tight sm:text-4xl;
+  }
+}
+
+.hero-sky {
+  background-image: linear-gradient(180deg, rgba(12, 15, 22, 0.35) 0%, rgba(12, 15, 22, 0.75) 55%, #0c0f16 100%), url(/hero.jpg);
+  background-size: cover;
+  background-position: center 30%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
